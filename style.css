@@ -1,0 +1,145 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+nav {
+  display: flex;
+  background-color: rgb(10, 10, 238);
+  justify-content: space-between;
+  padding: 35px 8px;
+}
+header h1 {
+  font-size: 50px;
+  margin-left: 20px;
+  font-style: oblique;
+  font-size: 65px;
+}
+.nav-links {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+  width: 40%;
+  align-items: center;
+  margin-right: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.nav-links a {
+  color: tomato;
+}
+.nav-links :hover {
+  color: yellow;
+}
+.nav {
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+  width: 25%;
+  align-items: center;
+  padding-right: 20px;
+}
+.ab {
+  color: white;
+}
+.pc {
+  color: white;
+  font-size: large;
+}
+.sh {
+  font-style: italic;
+  font-family: cursive;
+  font-size: larger;
+  border: 1px solid;
+  color: yellow;
+  padding: 3px 6px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.sh:hover {
+  color: blue;
+  background-color: azure;
+}
+.container {
+  display: grid;
+  grid-template-columns: 320px 320px 320px 320px;
+  gap: 10px;
+  padding-top: 20px;
+  background-color: yellow;
+}
+.se {
+  margin-left: 550px;
+  height: 30px;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+}
+
+img {
+  width: 80%;
+  margin-left: 20px;
+  background-color: rgb(219, 222, 223);
+}
+.country {
+  border-style: hidden;
+
+  margin-left: 40px;
+  background-color: rgb(219, 222, 223);
+  border-radius: 5px;
+}
+form {
+  background-color: red;
+}
+.cat {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.prc {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.rat {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.tit {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.container a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 45px;
+  margin-top: 50px;
+  font-size: 20px;
+  border: 1px solid blue;
+  padding: 10px 15px;
+  border-radius: 2px;
+}
+a:hover {
+  background-color: blue;
+  color: white;
+}
+i .fa-bars {
+  display: none;
+  width: 200px;
+}
+@media screen and (max-width: 930px) {
+
+.nav {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  top: 5rem;
+  height: 10rem;
+  padding: 2rem 0;
+}
+
+}
